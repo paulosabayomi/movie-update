@@ -1,0 +1,8 @@
+<div class="col-12 mb-4">
+    <div class="h5 text-center">
+        Search Movies
+    </div>
+    <div class="d-flex justify-content-center mb-3">
+        <input type="text" (keyup)="sKeyUp.emit($event)" (change)="handleChange($event)" [value]="request.defaultSearchValue" class="form-control w-50" placeholder="start typing...">
+    </div>
+</div>

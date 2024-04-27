@@ -1,0 +1,8 @@
+<a [routerLink]="'/movie/' + person?.id">
+    <div class="card bg-dark text-white">
+        <img [src]="mainService.getImageUrl(person?.backdrop_path)" class="card-img" [alt]="person?.title"/>
+        <div class="card-img-overlay">
+            <h5 class="card-title">{{person?.title}}</h5>
+        </div>
+    </div>
+</a>

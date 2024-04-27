@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("mdb-angular-ui-kit/assets/scss/mdb.scss");
+@import url('@fortawesome/fontawesome-free/css/all.css');
+
+@font-face {
+    font-family: "StarWars"; /* Name you give to the font */
+    src: url("./assets/starjedi/Starjedi.ttf") format("truetype"); /* Font file path and format */
+}
+
+body {
+    font-family: "Roboto" !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.card {
+    height: 260px;
+}
+
+.card img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.poster {
+    width: 100%;
+    height: 60vh;
+    object-fit: contain;
+}

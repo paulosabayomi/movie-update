@@ -1,0 +1,5 @@
+<div class="row" id="home-root">
+    <app-search (sKeyUp)="handleKeyUp($event)"></app-search>
+    <app-uicard class="col-md-4 col-lg-4 mb-4" [person]="person"
+    *ngFor="let person of request.peopleList"></app-uicard>
+</div>
